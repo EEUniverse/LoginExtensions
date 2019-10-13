@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Jesse</Authors>
+    <Company>N\A</Company>
+    <Description>A temporarily solution to easily create an authenticated client based on your google auth cookies.</Description>
+    <Copyright>EEJesse</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/EEUniverse/LoginExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EEUniverse/LoginExtensions</RepositoryUrl>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants />
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EEUniverse.Library" Version="1.0.0" />
+    <PackageReference Include="Flurl.Http" Version="2.4.2" />
+  </ItemGroup>
+
+</Project>
