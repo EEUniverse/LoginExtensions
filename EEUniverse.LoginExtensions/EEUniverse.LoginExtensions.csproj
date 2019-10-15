@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -9,7 +9,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/EEUniverse/LoginExtensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/EEUniverse/LoginExtensions</RepositoryUrl>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
+    <PackageTags>bot</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -19,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EEUniverse.Library" Version="1.0.0" />
+    <PackageReference Include="EEUniverse.Library" Version="1.0.1" />
     <PackageReference Include="Flurl.Http" Version="2.4.2" />
   </ItemGroup>
 
